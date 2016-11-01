@@ -13,8 +13,6 @@ public class LockBean {
         setValue(value);
         Rect rect = new Rect(x - length / 2, y - length / 2, x + length / 2, y + length / 2);
         setRect(rect);
-
-
     }
 
     int value;
